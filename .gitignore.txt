@@ -1,0 +1,5 @@
+# Ignore environment-related files
+.env             # Ignore specific .env file
+*.env.*          # Ignore any .env.<suffix> files (e.g., .env.prod, .env.dev)
+.env.local       # Ignore local .env files
+env/             # Ignore entire 'env' directory
